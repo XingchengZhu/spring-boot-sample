@@ -1,4 +1,4 @@
-FROM fabric8/java-jboss-openjdk8-jdk
+FROM 10.29.230.150:31381/library/m.daocloud.io/docker.io/fabric8/java-jboss-openjdk8-jdk
 
 ENV JAVA_APP_JAR spring-boot-sample-0.0.1-SNAPSHOT.war 
 ADD target/$JAVA_APP_JAR /deployments
